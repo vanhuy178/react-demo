@@ -1,0 +1,29 @@
+.glass {
+    background-image: url('./../../asset/images/glassesImage/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.model {
+    position: relative;
+}
+
+.glasses-item {
+    width: 140px;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    opacity: .8;
+}
+
+.info-glasses {
+    text-align: left;
+    padding: 10px 0 10px 10px;
+    color: white;
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 28%;
+    background-color: rgba(255, 127, 0, .5);
+}
