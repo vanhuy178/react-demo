@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import Calculator from './components/CALCULATOR/Calculator'
-
+import LayoutBookingTicket from './components/BookMoviesTickets/LayoutBookingTicket';
 export default class Home extends Component {
-
     render() {
         return (
             <div>
-                <Calculator />
+                <LayoutBookingTicket />
+                {/* interview of react */}
+                {/* <InterviewReactjs /> */}
+
             </div>
         )
     }

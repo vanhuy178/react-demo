@@ -1,0 +1,49 @@
+.layout-keobuabao {
+    background-image: url('../../../public/img/KeoBuaBao/bgGame.png');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    font-family: 'font-taixiu-game';
+}
+
+@font-face {
+    font-family: 'font-taixiu-game';
+    src: url('font/Pony.ttf');
+}
+
+.header-title {
+    color: yellow;
+}
+
+.keobuabao-content {
+    margin-top: 65px;
+}
+
+.choose button {
+    margin-right: 20px;
+}
+
+.choose img {
+    width: 45px;
+}
+
+.show-result {
+    position: relative;
+}
+
+.show-result img {
+    position: absolute;
+    /* background-color: white; */
+    /* padding: 10px; */
+    left: 200px;
+    top: -100px;
+
+    transform: rotate(45deg);
+}
+
+.detail-result p {
+    font-size: 35px;
+    color: green;
+}

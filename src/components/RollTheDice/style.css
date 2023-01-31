@@ -1,0 +1,80 @@
+/* layout roll the dice  */
+.layout-rtd {
+	background-image: url('../../../public/img/bgGame.png');
+	height: 100vh;
+}
+
+/* header */
+
+.header .title {
+	text-align: center;
+}
+
+.header .title h1 {
+	font-size: 80px;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+@font-face {
+	font-family: 'font-taixiu-game';
+	src: url('font/Pony.ttf');
+}
+
+body {
+	font-family: font-taixiu-game;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+/* random xúc xắc */
+.random-dice {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.random-dice .btn-xucsac {
+	box-shadow: none;
+	background-color: #007bff;
+	padding: 50px;
+
+	font-size: 35px;
+	color: white;
+	font-weight: 600;
+}
+
+.imgage-random-dice-item {
+	width: 50px;
+}
+
+/* the result */
+
+.detail-result {
+	/* margin-top: 20px; */
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+
+}
+
+.detail-result p {
+	margin-bottom: 10px;
+}
+
+
+/* button play game */
+
+.btn-play-game {
+	font-size: 20px;
+}
+
+.btn-success.focus,
+.btn-success:focus {
+	box-shadow: none;
+}
