@@ -4,6 +4,7 @@ import { bookSticketsReducer } from './reducer/bookTicketsReducer';
 
 // import cart reducer
 import cartReducer from './reducer/cartReducer';
+import { cartApiReduxReducer } from './reducer/cartReduxApi';
 import diceReducer from './reducer/diceReducer';
 import { keobuabaoReducer } from './reducer/keobuabaoReducer';
 
@@ -12,7 +13,9 @@ const rootReducers = combineReducers({
     cartReducerStore: cartReducer,
     diceReducerStore: diceReducer,
     keobuabaoReducerStore: keobuabaoReducer,
-    bookSticketsReducerStore: bookSticketsReducer
+    bookSticketsReducerStore: bookSticketsReducer,
+    _todoPoduct: cartApiReduxReducer
+
 });
 
 export default rootReducers;

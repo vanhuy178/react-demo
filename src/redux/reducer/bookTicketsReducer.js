@@ -7,7 +7,7 @@ const initialBookSticketState = {
 }
 
 export const bookSticketsReducer = (state = initialBookSticketState, action) => {
-    console.log(action.payload);
+    // console.log(action.payload);
     switch (action.type) {
         case BOOKING_CHAIR:
             {
